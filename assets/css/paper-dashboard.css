@@ -2462,9 +2462,13 @@ Copyright (c) 2015 Daniel Eden
   fill: none;
   stroke-width: 60px;
 }
-
 .ct-series-a .ct-point, .ct-series-a .ct-line, .ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {
   stroke: #68B3C8;
+}
+.ct-chart-bar .ct-series .ct-bar.ct-threshold-above  {
+  stroke: #4ECDC4;
+  stroke-width: 10px;
+  stroke-linecap: round;
 }
 .ct-series-a .ct-slice-pie, .ct-series-a .ct-area {
   fill: #68B3C8;
